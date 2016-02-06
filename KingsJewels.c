@@ -83,7 +83,6 @@ int main()
     int howManyJewelsToLookAt = 3;
     int simulationCount = 1000;
     int counter = 0;   
-    int results[simulationCount];
     int aggregateResults[10] = {0};
     srand(time(NULL));
 
@@ -97,10 +96,11 @@ int main()
     //Perform a number of simulations
     for (counter = 0; counter < simulationCount; ++counter)
     {
-        results[simulationCount] = pickAJewel(howManyJewelsToLookAt);
+        //Get the result
+        int result = pickAJewel(howManyJewelsToLookAt);
     
         //Aggregate the results
-        ++aggregateResults[results[simulationCount]];
+        ++aggregateResults[result];
     }
 
     //Print the aggreate results
@@ -108,7 +108,7 @@ int main()
     printf("\nValue\tCount\tPct\n");
     for (counter = 0; counter < 10; ++counter)
     {
-        printf("%d\t%d\t%f\n", counter, aggregateResults[counter], (double)(aggregateResults[counter]) / (double)1000);
+        printf("%d\t%d\t%f\n", counter, aggregateResults[counter], (double)(aggregateResults[counter]) / (double)simulationCount);
     }
 
     return 0;
