@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 //Definition of jewel bag
 typedef struct {
@@ -67,7 +69,7 @@ int pickAJewel(int howManyToLookAt)
         ++counter;
     }
 
-    //We keep the last value if all else fails
+    //We keep the last value if all else failshttps://github.com/timandrews335/Kings-Jewels-Simulation-C.git
     if (selectedValue == -1)
     {
         selectedValue = bagOfJewels.jewel[9];
