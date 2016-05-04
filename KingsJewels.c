@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
+//Test commit from Kubuntu
+
 //Definition of jewel bag
 typedef struct {
   int jewel[10];
