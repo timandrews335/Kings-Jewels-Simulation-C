@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-//Test commit from Kubuntu.  Test from 16.04
+//Test commit from Kubuntu.  Test from 16.04.  Test from Windows 10.
 
 //Definition of jewel bag
 typedef struct {
