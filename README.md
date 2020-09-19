@@ -2,7 +2,7 @@
 
 This is an implementation of the "King's Jewels Problem" detailed at the following blog post:  http://emptypipes.org/2015/10/21/kings-jewels/
 
-A simpler way to think of the problem would be "how many partners should I date before decided to marry to next one who was as good as or better than the best that I have date so far?"
+A simpler way to think of the problem would be "how many partners should I date before deciding to marry the next one, who was as good as or better than the best that I have dated so far?"
 
 Anyways, I have written this application in Visual Basic 2013, R and now C.  The purpose is simply an exercise to keep my 3GL skills up to date since I spend all day working on databases these days.
 
